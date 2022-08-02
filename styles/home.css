@@ -1,0 +1,13 @@
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:rgb(133, 131, 132);
+    text-align: center;
+}
+
+
+button {
+    color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
