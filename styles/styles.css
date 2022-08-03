@@ -63,6 +63,7 @@ h3 {
     line-height:100px;
     white-space: nowrap;
     overflow:hidden;
+    text-align: center;
 }
 
 #button {
@@ -82,5 +83,19 @@ h3 {
     text-decoration: underline;
 
 }
+
+.wrapper {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:0px;
+    height:100px;
+    font-size:300;
+    line-height:100px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-align: center;
+}
+
+
 
 
