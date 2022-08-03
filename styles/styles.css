@@ -53,3 +53,34 @@ h3 {
 .grid-item{
 
 }
+
+.hdr {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:0px;
+    height:100px;
+    font-size:300;
+    line-height:100px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+#button {
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    background-color:transparent;
+    font-size 75%;
+    border-color:transparent;
+    cursor:pointer;
+
+}
+
+#button-hover {
+    transform: translate (0,-3px);
+    font-size:130%;
+    transition:background-size 2 seconds linear;
+    text-decoration: underline;
+
+}
+
+
